@@ -1,0 +1,13 @@
+.container {
+  background-color: rgb(107, 14, 14);
+  padding: 0.2rem 1.5rem;
+  border-radius: 1rem;
+  color: rgb(231, 232, 245);
+}
+
+.paragraph {
+  background-color: rgb(143, 137, 137);
+  color: rgb(252, 251, 249);
+  padding: 1rem 1.1rem;
+  border-radius: 1rem;
+}

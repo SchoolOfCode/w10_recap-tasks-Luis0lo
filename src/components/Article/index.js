@@ -2,10 +2,11 @@ import React from 'react';
 import articles from '../../libs/articles.js';
 import Content from '../Content/index.js';
 import Comments from '../Comments';
+import css from './Article.module.css';
 
 const Article = () => {
   return (
-    <div>
+    <div className={css.container}>
       {articles.map((article, i) => {
         return (
           <div key={i}>

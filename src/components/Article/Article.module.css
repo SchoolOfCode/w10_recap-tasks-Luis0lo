@@ -1,0 +1,9 @@
+.container {
+  max-width: 90vw;
+  margin: auto;
+}
+.content {
+  background-color: rgb(126, 124, 124);
+  color: white;
+}
+
