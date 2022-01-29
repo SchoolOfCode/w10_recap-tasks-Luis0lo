@@ -11,6 +11,7 @@ function App() {
     <main className="App">
       <Header />
       <User />
+      <Article />
       {isAuthenticated ? <Article /> : ''}
     </main>
   );
