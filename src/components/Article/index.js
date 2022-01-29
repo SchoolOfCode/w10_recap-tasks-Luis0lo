@@ -3,10 +3,12 @@ import articles from '../../libs/articles.js';
 import Content from '../Content/index.js';
 import Comments from '../Comments';
 import css from './Article.module.css';
+import BlogHeader from '../ArticleHeader';
 
 const Article = () => {
   return (
     <div className={css.container}>
+      <BlogHeader />
       {articles.map((article, i) => {
         return (
           <div key={i}>

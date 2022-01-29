@@ -1,5 +1,7 @@
 import React from 'react';
 import css from './Content.module.css';
+import { Button } from 'antd';
+import { LikeOutlined } from '@ant-design/icons';
 
 const Content = ({ title, paragraphs }) => {
   return (
@@ -10,7 +12,9 @@ const Content = ({ title, paragraphs }) => {
           {paragraph.text}
         </p>
       ))}
-      <button>Like 👍</button>
+      <Button type="primary" shape="round" icon={<LikeOutlined />}>
+        LIKE
+      </Button>
     </div>
   );
 };

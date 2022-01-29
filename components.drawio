@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="pVE6wrUTC4DUHqG__n21" name="Page-1">
-        <mxGraphModel dx="1140" dy="1521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2143" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="30" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="30" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="230" y="-100" width="550" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -61,10 +61,10 @@
                 <mxCell id="19" value="USER" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="270" y="-70" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="LOGIN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="31" value="LOGIN" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="-40" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="LOGOUT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="32" value="LOGOUT" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="10" width="100" height="40" as="geometry"/>
                 </mxCell>
             </root>

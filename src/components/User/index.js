@@ -10,7 +10,6 @@ const User = () => {
 
   if (isLoading) {
     return (
-
       <Row justify="center">
         <Space>
           Loading <SyncOutlined spin />

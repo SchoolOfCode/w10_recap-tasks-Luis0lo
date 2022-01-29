@@ -1,19 +1,4 @@
-// import React from 'react';
-
-// import 'antd/dist/antd.css';
-
-// const Comments = ({ author, comment }) => {
-//   return (
-//     <div>
-//       <h4>{author} says:</h4>
-//       <p>{comment}</p>
-//     </div>
-//   );
-// };
-
-// export default Comments;
 import 'antd/dist/antd.css';
-
 import React, { createElement, useState } from 'react';
 import { Comment, Tooltip, Avatar } from 'antd';
 import moment from 'moment';
@@ -23,6 +8,7 @@ import {
   DislikeFilled,
   LikeFilled,
 } from '@ant-design/icons';
+import css from './Comments.module.css';
 
 const Comments = ({ author, comment }) => {
   const [likes, setLikes] = useState(0);
@@ -30,14 +16,14 @@ const Comments = ({ author, comment }) => {
   const [action, setAction] = useState(null);
 
   const like = () => {
-    setLikes(likes + 1);
-    // setDislikes(0);
+    setLikes(1);
+    setDislikes(0);
     setAction('liked');
   };
 
   const dislike = () => {
-    // setLikes(0);
-    setDislikes(dislikes + 1);
+    setLikes(0);
+    setDislikes(1);
     setAction('disliked');
   };
 
@@ -59,6 +45,7 @@ const Comments = ({ author, comment }) => {
 
   return (
     <Comment
+      className={css.container}
       actions={actions}
       author={author}
       avatar={
@@ -74,3 +61,18 @@ const Comments = ({ author, comment }) => {
   );
 };
 export default Comments;
+
+// import React from 'react';
+
+// import 'antd/dist/antd.css';
+
+// const Comments = ({ author, comment }) => {
+//   return (
+//     <div>
+//       <h4>{author} says:</h4>
+//       <p>{comment}</p>
+//     </div>
+//   );
+// };
+
+// export default Comments;

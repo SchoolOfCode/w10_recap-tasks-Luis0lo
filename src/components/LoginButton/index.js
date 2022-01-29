@@ -8,10 +8,10 @@ const LoginButton = () => {
 
   return (
     <Row justify="center">
-      <Card style={{ width: 300 }}>
-        <h2>Welcome to WikiPigeon!</h2>
+      <Card align="center" style={{ width: 305 }}>
+        <h2>Curious about WikiPigeon!</h2>
         <p>You must login to access our content</p>
-        <Button
+        <Button 
           onClick={() => loginWithRedirect()}
           type="primary"
           shape="round"

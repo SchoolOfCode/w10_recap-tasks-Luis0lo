@@ -1,13 +1,16 @@
 .container {
-  background-color: rgb(107, 14, 14);
-  padding: 0.2rem 1.5rem;
+  background-color: rgba(24, 143, 255, 0.37);
+  padding: 0.5rem 1.5rem;
   border-radius: 1rem;
-  color: rgb(231, 232, 245);
+  margin-top: 2rem;
+}
+h2 {
+  color: rgb(62, 11, 182);
+  font-size: 1.7rem;
 }
 
 .paragraph {
-  background-color: rgb(143, 137, 137);
-  color: rgb(252, 251, 249);
-  padding: 1rem 1.1rem;
+  font-size: 1rem;
+  padding: 0 1.1rem;
   border-radius: 1rem;
 }

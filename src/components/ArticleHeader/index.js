@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './Header.module.css';
 
-const Header = () => {
+const BlogHeader = () => {
   return (
     <div className={css.container}>
       <h1>WikiPigeon</h1>
@@ -9,4 +9,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default BlogHeader;
