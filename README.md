@@ -1,42 +1,74 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6839190&assignment_repo_type=AssignmentRepo)
-# Weekly Recap Tasks
+# WikiPigeon
 
-## Feedback
+## Purpose
 
-### Peer feedback
+This is a [blog](http://localhost:3000/) about pigeons to 
+which you will need to log in to have access to its privileged information.  
+This way we keep can filter who has access to our App.
 
-Feedback is a vital part of continual improvement and the hero's journey of growth you're on on this course. We're here to support each other to grow on this bootcamp journey, so keep this in mind when you write honest, constructive feedback. This is important for the receiver of the feedback as well as the giver - learning to give feedback is a skill that you'll use throughout your career in tech.
+## Components 
+Header  (Blog Title)  
 
-Please click [here](https://forms.gle/BJWLNvSgKsp9rkbF8) to fill out the peer review form for your partner this week. Please fill it out for each person you've worked with.
+User  (Display user profile if loged in)  
+> LoginButton  (login logic using AUTH0)   
+> LogoutButton  (logout)
 
-### Coaching feedback
+Article  (Display all the blog articles)  
+> Content (title, paragraphs)  
+> Comments (author and comment)
 
-If you didn't complete the coaching feedback survey about your recent 1:1s with your coach earlier in the week, please [click here](https://forms.gle/rwcyW9bTbVqX4nNz6) to do so.
 
-## Tasks
+## Basic Requirements
+This project was built with Create React App. You’ll need to have Node >= 14.0.0 and npm >= 5.6 on your machine.  
+Having an account on [AUTH0](https://auth0.com/)
 
-In this repository, you'll find an app that uses content from the array of posts in [libs/articles](task2/src/libs/articles.js). It's currently all in one component.
+## Getting Started 
 
-👉 Use component-based thinking to break the code in the `App` component into separate components. Use draw.io's VS Code integration (or an image from another diagramming software) to diagram out your components and their states and props and include your diagram in this repo before refactoring the code.
+#### Clone the Repo
+ - **npm install** downloads dependencies defined in the package. json file and generates a node_modules folder with the installed modules.  
 
-👉 Style the components you've just made using **CSS modules**.
 
-👉 Use the **component library** of your choice to replace one or more of the existing components and/or add one or more new components to the application.
+#### Authentication
+To enable the authentication feature you'll need to get your own 
+credentials from **AUTH0** and add it to
+[.env.example](https://github.com/SchoolOfCode/w10_recap-tasks-Luis0lo/blob/master/.env.example) file. 
+Afterwards, change the file name to .env  
+Not sure about how to get the credentials! You can follow the steps on 
+[AUTH0](https://auth0.com/docs/quickstart/spa/react/01-login) up to
+"Install the Auth0 React SDK" step. 
+ 
 
-👉 Use Auth0 to add simple **authentication** to your app so that users must be logged in to view the articles.
+#### Run the app locally
 
-👉 **Deploy** your front end application, and include the URL in the readme.
+ - **npm start** You'll be able to see the App on your browser. By default http://localhost:3000/
 
-👉 Create **documentation** for your app, and refactor this readme with your documentation. You can use a tool like [readme.so](https://readme.so/editor).
 
-### 🌟 Bonus tasks
+## Dependencies 
 
-If you finish the tasks above and want to keep exploring and practicing, keep coding! Feel free to work on a personal project or explore something you're curious about.
+- "@auth0/auth0-react": "1.9.0"  
+- "antd": "4.18.5"  
+- "react": "17.0.2"  
+- "react-dom": "17.0.2",
 
-If you'd like to carry on with this repo, here are some ideas:
 
-- Create additional features for your app.
-- Use **Storybook** to document your UI components.
-- Explore what else you can do with Auth0 to add additional auth to your blog (such as roles).
-- Add test files and tests for your components.
-- Create and deploy a REST API back end to serve your articles.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
