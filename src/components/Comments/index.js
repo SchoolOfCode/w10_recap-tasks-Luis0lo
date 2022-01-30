@@ -45,6 +45,7 @@ const Comments = ({ author, comment }) => {
 
   return (
     <Comment
+    data-testid={'comment-display'}
       className={css.container}
       actions={actions}
       author={author}
